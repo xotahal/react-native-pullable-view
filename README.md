@@ -6,6 +6,10 @@
 
 Implements component similar to calendar that you know from Calendar App by Google - you can pull down this calendar from toolbar. 
 
+## Example
+
+![Example] (https://raw.githubusercontent.com/xotahal/react-native-pullable-view-demo-app/master/resources/example.gif)
+
 
 ## Install
 
