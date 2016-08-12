@@ -1,6 +1,6 @@
 {
   "name": "react-native-pullable-view",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "React Native Pullable View",
   "main": "index.js",
   "scripts": {
