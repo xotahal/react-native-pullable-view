@@ -4,7 +4,7 @@
   "description": "React Native Pullable View",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -13,7 +13,7 @@
   "keywords": [
     "react-native",
     "pull",
-    "pull-view"
+    "pull-view",
     "components",
     "react-component",
     "react-native-component",
