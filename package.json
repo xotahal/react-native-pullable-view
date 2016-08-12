@@ -1,0 +1,31 @@
+{
+  "name": "react-native-pullable-view",
+  "version": "1.0.0",
+  "description": "React Native Pullable View",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xotahal/react-native-pullable-view"
+  },
+  "keywords": [
+    "react-native",
+    "pull",
+    "pull-view"
+    "components",
+    "react-component",
+    "react-native-component",
+    "android"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xotahal/react-native-pullable-view/issues"
+  },
+  "homepage": "https://github.com/xotahal/react-native-pullable-view",
+  "devDependencies": {
+    "react": "^15.2.1",
+    "react-native": "^0.30.0"
+  }
+}
