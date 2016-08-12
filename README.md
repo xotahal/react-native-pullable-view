@@ -20,9 +20,17 @@ npm i react-native-pullable-view --save
 ## Usage
 
 ```js
-<Pullable pullView={() => <View><Text>This view will be pulled down!</Text></View>}>
-  <View>
-    <Text>This view will be always shown on the screen</Text>
-  </View>
-</Pullable>
+import Pullable from 'react-native-pullable-view';
+
+...
+
+render() {
+  return (
+    <Pullable pullView={() => <View><Text>This view will be pulled down!</Text></View>}>
+      <View>
+        <Text>This view will be always shown on the screen</Text>
+      </View>
+    </Pullable>
+  );
+}
 ```
