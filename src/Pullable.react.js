@@ -1,5 +1,5 @@
 import { View, PanResponder, Animated, Easing, StyleSheet } from 'react-native';
-import React, { Component, PropTypes } from 'react';
+import React, { PureComponent, PropTypes } from 'react';
 
 const propTypes = {
     /**
@@ -56,7 +56,7 @@ const styles = StyleSheet.create({
 
 const isUpGesture = (x, y) => y < 0 && (Math.abs(x) < Math.abs(y));
 
-class Pullable extends Component {
+class Pullable extends PureComponent {
     constructor(props) {
         super(props);
 
@@ -232,7 +232,6 @@ class Pullable extends Component {
                         {getPullView(this.state)}
                     </View>
                     <View
-                        ref="viewResponder"
                         {...this.panResponder.panHandlers}
                         style={{ width: this.state.width, height: this.state.height }}
                     >
