@@ -194,6 +194,12 @@ class Pullable extends PureComponent {
         }
     }
     _onShouldSetPanResponder(e, gesture, isOutside) {
+        // If we are just taping on an element, there is no need to use the PanResponder
+        if(gesture.dy == 0 && gesture.dx == 0)
+        {
+            return false;
+        }
+
         const { isOpen, childrenCanOpen } = this.state;
 
         const isClose = !isOpen;
