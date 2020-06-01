@@ -8,7 +8,7 @@ Implements component similar to calendar that you know from Calendar App by Goog
 
 ## Example
 
-![Example] (https://raw.githubusercontent.com/xotahal/react-native-pullable-view-demo-app/master/resources/example.gif)
+![Example](https://raw.githubusercontent.com/xotahal/react-native-pullable-view-demo-app/master/resources/example.gif)
 
 
 ## Install
